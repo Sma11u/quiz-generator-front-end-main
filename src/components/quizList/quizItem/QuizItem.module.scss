@@ -1,0 +1,66 @@
+.container {
+  height: 134px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+  padding: 15px 30px 30px;
+  box-shadow: 0 0 10px #e5e5e5;
+}
+
+.iconContainer {
+  height: 25px;
+  display: flex;
+  justify-content: end;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.title {
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.code {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: gray;
+  cursor: copy;
+}
+
+.isCopied {
+  display: none;
+  transition: 1s;
+
+  &.show {
+    display: block;
+  }
+}
+
+.copyIcon {
+  cursor: pointer;
+}
+
+/*
+  Phone
+ */
+@media only screen and (max-width: 600px) {
+}
+
+/*
+  Table
+ */
+@media only screen and (min-width: 601px) {
+}
+
+/*
+  Desktop
+ */
+@media only screen and (min-width: 1200px) {
+}
