@@ -1,0 +1,9 @@
+# Contributing
+
+Дякуємо за ваш інтерес до покращення Quiz Generator Front End!
+
+## Як відправити pull request
+1. Форкнути репозиторій.
+2. Створити нову гілку:
+   ```bash
+   git checkout -b feature/назва_функції
